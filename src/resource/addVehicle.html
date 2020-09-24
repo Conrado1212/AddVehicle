@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>RentAppPage</title>
+
+    <meta name="description" content="Wypozyczalnia pojazdow elektrycznych" />
+    <meta name="keywords" content="hulajnogi, samochody, wypozyczalnia, deskorolki " />
+
+    <link href="style/styleAdd.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="css/fontello.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo">
+            <img src="img/scooter.png"  />
+            <span style="color: #808080"> Rent</span>App.com
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+    <div class="nav">
+        <ol>
+            <li><a href="addVehicle.html">Main Page</a></li>
+            <li><a href="addVehicle.html">Scooters</a>
+                <ul>
+                    <li><a href="https://www.x-kom.pl/p/503297-hulajnoga-elektryczna-xiaomi-mijia-m365-pro.html">Xiaomi </a> </li>
+                    <li><a href="https://www.x-kom.pl/p/503964-hulajnoga-elektryczna-fiat-f500-85-czerwona.html">Fiat </a> </li>
+                    <li><a href="https://www.x-kom.pl/p/409003-hulajnoga-elektryczna-ninebot-by-segway-kickscooter-es1.html">Ninebot </a> </li>
+                    <li><a href="https://www.x-kom.pl/p/508909-hulajnoga-elektryczna-kawasaki-kx-fs-65.html">Kawasaki </a> </li>
+                </ul>
+            </li>
+            <li><a href="addVehicle.html">Cars</a>
+                <ul>
+                    <li><a href="https://www.tesla.com/model3">Tesla 3</a> </li>
+                    <li><a href="https://www.volkswagen.pl/pl/modele-i-konfigurator/id3.html">Golf</a> </li>
+                    <li><a href="https://porsche.pl/model/taycan/taycan-taycan/taycan-4s/">Porsche</a> </li>
+                    <li><a href="https://www.tesla.com/models">Tesla S</a> </li>
+                </ul>
+            </li>
+            <li><a href="addVehicle.html">Bikes</a>
+                <ul>
+                    <li><a href="https://www.mediaexpert.pl/rowery/rowery-elektryczne/rower-elektryczny-mtb-orus-e3600?gclid=EAIaIQobChMIwfnjlobh6QIVRMYYCh3SXA4JEAYYASABEgKde_D_BwE&gclsrc=aw.ds">ORUS</a> </li>
+                    <li><a href="https://www.mediaexpert.pl/rowery/rowery-elektryczne/rower-indiana-e-mtb-1-0-m19-czarno-niebieski">Indiana</a> </li>
+                    <li><a href="https://www.mediaexpert.pl/rowery/rowery-elektryczne/rower-elektryczny-miejski-torpado-venus-26-d">Torpado</a> </li>
+                    <li><a href="https://www.mediaexpert.pl/rowery/rowery-elektryczne/rower-elektryczny-kawasaki-kx-e-treklady51-grafitowy">Kawasaki</a> </li>
+                </ul>
+            </li>
+            <li><a href="addVehicle.html">MotorBikes</a>
+                <ul>
+                    <li><a href="https://ktmsklep.pl/motocykle-ktm/offer/168/ktm-freeride-e-xc-2020">Ktm</a> </li>
+                    <li><a href="https://inforiders.pl/2019/12/20/apex-to-kosmiczny-motocykl-od-segwaya/">Apex</a> </li>
+                    <li><a href="https://allegro.pl/oferta/motorower-skuter-elektryczny-supersoco-tc-sopot-8300577344?utm_feed=aa34192d-eee2-4419-9a9a-de66b9dfae24&utm_source=google&utm_medium=cpc&utm_campaign=_UZSD_pla_sport_turystyka_rowery_akcesoria_TOP_new_sport_bicycles&ev_adgr=Rowery+i+akcesoria&gclid=EAIaIQobChMI84jD_Ibh6QIVyIGyCh2-QwFAEAQYAiABEgIk6fD_BwE">SuperSoco</a> </li>
+                    <li><a href="https://www.scigacz.pl/Brammo,Enertia,,8211,,kolejny,motocykl,elektryczny,w,salonach,9990.html">Enertia</a> </li>
+                </ul>
+            </li>
+            <li><a href="addVehicle.html">Authors</a>
+
+            </li>
+        </ol>
+    </div>
+    <div class="content">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" >Add vehicle to database</button>
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="idGroupVehicle" required>
+                <input type="text" class="input-field" placeholder="brand" required>
+                <input type="text" class="input-field" placeholder="model" required>
+                <input type="text" class="input-field" placeholder="maxRange" required>
+                <input type="text" class="input-field" placeholder="weight" required>
+                <input type="text" class="input-field" placeholder="pricePerSale" required>
+                <input type="text" class="input-field" placeholder="maxSpeed" required>
+                <input type="text" class="input-field" placeholder="locationVehicle" required>
+                <input type="text" class="input-field" placeholder="nameLocation" required>
+                <input type="text" class="input-field" placeholder="borderVehicle" required>
+
+                <button type="submit" class="submit-btn">Add Vehicle</button>
+            </form>
+        </div>
+    </div>
+    <div class="social">
+        <div class="socialdiv">
+            <div class="fb">
+                <a href=" https://www.facebook.com/"><i class="icon-facebook-squared"></i></a>
+            </div>
+            <div class="yt">
+                <a href="https://www.youtube.com/"><i class="icon-youtube-play"></i></a>
+            </div>
+            <div class="tw">
+                <a href="https://www.twitch.tv/"><i class="icon-twitch"></i></a>
+            </div>
+            <div class="am">
+                <a href="https://www.amazon.de/"><i class="icon-amazon"></i></a>
+
+            </div>
+            <div style="clear: both"> </div>
+        </div>
+    </div>
+    <div class="footer">RentApp.com &copy; 2020 Thank you for your visit</div>
+</div>
+<script src="jquery-1.11.3.min.js"></script>
+<script>
+
+    $(document).ready(function() {
+        var NavY = $('.nav').offset().top;
+
+        var stickyNav = function(){
+            var ScrollY = $(window).scrollTop();
+
+            if (ScrollY > NavY) {
+                $('.nav').addClass('sticky');
+            } else {
+                $('.nav').removeClass('sticky');
+            }
+        };
+
+        stickyNav();
+
+        $(window).scroll(function() {
+            stickyNav();
+        });
+    });
+
+</script>
+
+</body>
+</html>
